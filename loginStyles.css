@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.loginbox {
+    background-color: #332157;
+    margin: auto;
+    padding: 40px;
+    width: 500px;
+	color: #e6e6dd;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#loginheader {
+    font-size: 32px;
+    text-align: center;
+}
+
+.textbox {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.datebox {
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.select-form {
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    background-color: #7650BF; 
+    color: #e6e6dd;     
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e6e6dd;
+    color: #332157;
+    text-decoration:hold;
+}
+
+.loginlink {
+    color: #e6e6dd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loginlink a:hover {
+    color:#e6362a;
+}
+
+
+
+
+

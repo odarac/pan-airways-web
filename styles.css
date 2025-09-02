@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body {
+    background-color: #e6e6dd;
+    margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    float: right;
+    padding: 20px;
+    font-size: 16px;
+}
+
+a.login {
+    text-decoration: none;
+}
+
+.login {
+	color: #332157;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login a:link {
+	color: #332157;
+}
+
+.login a:visited {
+	color: #332157;
+}
+
+a:hover {
+	color: #e6362a;
+}
+
+ul.navbar {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #332157;
+	
+}
+
+li.nav{
+	float: left;
+}
+
+li.nav a{
+	display: block;
+	color: #e6e6dd;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+}
+
+li.nav a:hover {
+	background-color: #7650BF;
+	color: #e6e6dd;
+}
+
+.active {
+	background-color: #e6362a;
+
+}
+
+
+
+/*.footer {
+	position: relative;
+	width: 100%;
+	background-color: #332157;
+	color: #e6e6dd;
+	padding: 10px 0px 25px 0px;
+	min-height: 150px;
+}
+
+div.quicklinks {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.qlh {
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+div.sns { 
+    padding: 20px;
+	font-size: 16px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footerlinks {
+	margin: 0px;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 0px 0px 5px 0px;
+}
+
+.footerlinks li {
+	padding: 0px 0px 5px 0px;
+}
+
+.footerlinks li a {
+	color: #e6e6dd;
+	text-decoration: none;
+}
+
+.footerlinks li a:hover {
+	color: #e6362a;
+}
+
+.footerlinks li {
+	display: table; 
+}*/
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #332157;
+    color: #e6e6dd;
+    padding: 10px 0px 25px 0px;
+    min-height: 150px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align children at start and end */
+    align-items: center; /* Align items vertically */
+}
+
+.quicklinks, .sns {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.qlh {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footerlinks {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.footerlinks li {
+    padding-bottom: 5px;
+}
+
+.footerlinks li a {
+    color: #e6e6dd;
+    text-decoration: none;
+}
+
+.footerlinks li a:hover {
+    color: #e6362a;
+}
+
+.footerlinks li {
+    display: table;
+}
+
